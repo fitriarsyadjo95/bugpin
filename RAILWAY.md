@@ -7,10 +7,12 @@ expressed in config-as-code and must be set once in the Railway dashboard:
 1. **New Project → Deploy from GitHub repo** → select this fork.
 2. **Add a Volume** to the service, mount path: `/data`
    (SQLite database, uploads and the session secret live here).
-3. **Variables** → add `RAILWAY_RUN_UID=0`
-   (the image runs as the non-root `bun` user; Railway volumes are root-owned).
-4. **Settings → Networking → Generate Domain**, target port **7300**
-   (the port is hardcoded in `src/server/config.ts`). Optionally add a custom domain.
+3. **Variables** → add `RAILWAY_RUN_UID=0` and `PORT=7300`
+   (the image runs as the non-root `bun` user and Railway volumes are root-owned;
+   the app port is hardcoded to 7300 in `src/server/config.ts`, so Railway's `PORT`
+   must match or the edge returns 502).
+4. **Settings → Networking → Generate Domain**, target port **7300**.
+   Optionally add a custom domain.
 5. Open the domain and log in with `admin@example.com` / `changeme123`.
    **Change the email and password immediately.**
 
