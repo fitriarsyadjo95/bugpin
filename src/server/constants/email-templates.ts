@@ -5,7 +5,7 @@ export { defaultsByLocale as defaultEmailTemplates };
 
 const BRAND_COLOR_PLACEHOLDER = '__BRAND_COLOR__';
 
-export const DEFAULT_BRAND_COLOR = '#02658D';
+export const DEFAULT_BRAND_COLOR = '#9C7F2B';
 
 function darkenColor(hex: string, percent: number = 15): string {
   const color = hex.replace('#', '');

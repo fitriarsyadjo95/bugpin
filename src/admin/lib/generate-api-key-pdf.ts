@@ -191,7 +191,7 @@ export async function generateApiKeyPdf(data: ApiKeyPdfData): Promise<void> {
   // Use branding colors or defaults
   const primaryColor = branding?.primaryColor
     ? hexToRgb(branding.primaryColor)
-    : { r: 2, g: 101, b: 141 }; // Default #02658D
+    : { r: 156, g: 127, b: 43 }; // Default #9C7F2B
 
   // Header with light background and colored accent line
   doc.setFillColor(250, 250, 250);

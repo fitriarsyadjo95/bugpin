@@ -57,7 +57,7 @@ export function ColorPicker({ value, onChange, disabled, className }: ColorPicke
       <Input
         value={value}
         onChange={handleInputChange}
-        placeholder="#02658D"
+        placeholder="#C8A84E"
         className="flex-1"
         disabled={disabled}
       />

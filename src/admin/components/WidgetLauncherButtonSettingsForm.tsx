@@ -258,13 +258,13 @@ export function WidgetLauncherButtonSettingsForm({
 
   // Light mode colors
   const effectiveLightButtonColor =
-    value.lightButtonColor ?? globalSettings?.widgetLauncherButton.lightButtonColor ?? '#02658D';
+    value.lightButtonColor ?? globalSettings?.widgetLauncherButton.lightButtonColor ?? '#C8A84E';
   const effectiveLightTextColor =
     value.lightTextColor ?? globalSettings?.widgetLauncherButton.lightTextColor ?? '#ffffff';
   const effectiveLightButtonHoverColor =
     value.lightButtonHoverColor ??
     globalSettings?.widgetLauncherButton.lightButtonHoverColor ??
-    '#024F6F';
+    '#A88A2E';
   const effectiveLightTextHoverColor =
     value.lightTextHoverColor ??
     globalSettings?.widgetLauncherButton.lightTextHoverColor ??
@@ -272,13 +272,13 @@ export function WidgetLauncherButtonSettingsForm({
 
   // Dark mode colors
   const effectiveDarkButtonColor =
-    value.darkButtonColor ?? globalSettings?.widgetLauncherButton.darkButtonColor ?? '#02658D';
+    value.darkButtonColor ?? globalSettings?.widgetLauncherButton.darkButtonColor ?? '#C8A84E';
   const effectiveDarkTextColor =
     value.darkTextColor ?? globalSettings?.widgetLauncherButton.darkTextColor ?? '#ffffff';
   const effectiveDarkButtonHoverColor =
     value.darkButtonHoverColor ??
     globalSettings?.widgetLauncherButton.darkButtonHoverColor ??
-    '#036F9B';
+    '#E0CC8A';
   const effectiveDarkTextHoverColor =
     value.darkTextHoverColor ??
     globalSettings?.widgetLauncherButton.darkTextHoverColor ??

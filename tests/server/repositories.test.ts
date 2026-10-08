@@ -393,7 +393,7 @@ describe('sessionsRepo', () => {
 describe('settingsRepo', () => {
   it('returns defaults when settings are missing', async () => {
     const settings = await settingsRepo.getAll();
-    expect(settings.appName).toBe('BugPin');
+    expect(settings.appName).toBe('Mutiara System UAT');
     expect(settings.notifications.notifyOnNewReport).toBe(true);
     expect(settings.privacy).toEqual({ euPrivacyMode: false });
   });

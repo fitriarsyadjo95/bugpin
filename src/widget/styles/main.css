@@ -49,17 +49,17 @@
   /* stylelint-disable-next-line at-rule-no-unknown */
   @theme inline {
     /* BugPin Primary Color Palette */
-    --color-bugpin-primary-50: #e6f3f9;
-    --color-bugpin-primary-100: #cbe7f2;
-    --color-bugpin-primary-200: #9ed1e6;
-    --color-bugpin-primary-300: #6ab8d8;
-    --color-bugpin-primary-400: #2e9bc6;
-    --color-bugpin-primary-500: #0e84b1;
-    --color-bugpin-primary-600: #036f9b;
-    --color-bugpin-primary-700: #02658d;
-    --color-bugpin-primary-800: #024f6f;
-    --color-bugpin-primary-900: #013a52;
-    --color-bugpin-primary-950: #012738;
+    --color-bugpin-primary-50: #fbf8ef;
+    --color-bugpin-primary-100: #f5edd5;
+    --color-bugpin-primary-200: #ebdcab;
+    --color-bugpin-primary-300: #e0cc8a;
+    --color-bugpin-primary-400: #d4b96a;
+    --color-bugpin-primary-500: #c8a84e;
+    --color-bugpin-primary-600: #b3923c;
+    --color-bugpin-primary-700: #9c7f2b;
+    --color-bugpin-primary-800: #7c6524;
+    --color-bugpin-primary-900: #5e4c1d;
+    --color-bugpin-primary-950: #3a2f12;
 
     /* UI colors mapped to CSS variables */
     --color-background: var(--background);
@@ -95,17 +95,17 @@
     line-height: 1.5;
 
     /* BugPin Primary Color Palette (for reference in JS) */
-    --bugpin-primary-50: #e6f3f9;
-    --bugpin-primary-100: #cbe7f2;
-    --bugpin-primary-200: #9ed1e6;
-    --bugpin-primary-300: #6ab8d8;
-    --bugpin-primary-400: #2e9bc6;
-    --bugpin-primary-500: #0e84b1;
-    --bugpin-primary-600: #036f9b;
-    --bugpin-primary-700: #02658d;
-    --bugpin-primary-800: #024f6f;
-    --bugpin-primary-900: #013a52;
-    --bugpin-primary-950: #012738;
+    --bugpin-primary-50: #fbf8ef;
+    --bugpin-primary-100: #f5edd5;
+    --bugpin-primary-200: #ebdcab;
+    --bugpin-primary-300: #e0cc8a;
+    --bugpin-primary-400: #d4b96a;
+    --bugpin-primary-500: #c8a84e;
+    --bugpin-primary-600: #b3923c;
+    --bugpin-primary-700: #9c7f2b;
+    --bugpin-primary-800: #7c6524;
+    --bugpin-primary-900: #5e4c1d;
+    --bugpin-primary-950: #3a2f12;
 
     /* Light mode defaults */
     --background: #ffffff;

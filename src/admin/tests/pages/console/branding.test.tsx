@@ -103,9 +103,9 @@ describe('Branding', () => {
     brandingApiMocks.getConfig.mockResolvedValue({
       adminThemeColors: {
         lightButtonColor: '#1d4ed8',
-        lightTextColor: '#ffffff',
+        lightTextColor: '#0D0D0D',
         lightButtonHoverColor: '#1e40af',
-        lightTextHoverColor: '#ffffff',
+        lightTextHoverColor: '#0D0D0D',
         darkButtonColor: '#38bdf8',
         darkTextColor: '#0f172a',
         darkButtonHoverColor: '#0ea5e9',
@@ -160,7 +160,7 @@ describe('Branding', () => {
     await waitFor(() => {
       const calls = brandingApiMocks.updateAdminThemeColors.mock.calls;
       const lastCall = calls[calls.length - 1] ?? [];
-      expect(lastCall[0]).toEqual(expect.objectContaining({ lightButtonColor: '#02658D' }));
+      expect(lastCall[0]).toEqual(expect.objectContaining({ lightButtonColor: '#C8A84E' }));
     });
   });
 

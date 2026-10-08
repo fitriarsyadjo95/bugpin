@@ -427,7 +427,7 @@ export function TestWidgetPage() {
       {apiKey && (
         <div
           className="text-white px-5 py-3 text-center text-sm flex-shrink-0"
-          style={{ backgroundColor: '#02658D' }}
+          style={{ backgroundColor: '#0D0D0D' }}
         >
           API key:{' '}
           <code className="bg-white/15 px-1.5 py-0.5 rounded font-mono text-xs">{apiKey}</code>
@@ -469,7 +469,7 @@ export function TestWidgetPage() {
         <aside className="w-64 flex-shrink-0 bg-zinc-800 dark:bg-zinc-900 text-white overflow-y-auto">
           <div className="px-5 py-5 border-b border-zinc-700">
             <div className="flex items-center gap-3">
-              <img src="/branding/dark/logo-dark.svg" alt="BugPin" className="h-7 w-auto" />
+              <img src="/branding/dark/logo-dark.svg" alt="Mutiara System" className="h-7 w-auto" />
             </div>
             <div className="text-xs text-zinc-400 mt-1">Widget Testing Dashboard</div>
           </div>
@@ -488,7 +488,7 @@ export function TestWidgetPage() {
                       className={`px-5 py-3 flex items-center gap-3 cursor-pointer transition-colors hover:bg-zinc-700 ${
                         item.active ? 'bg-zinc-700 border-l-3 pl-[17px]' : ''
                       }`}
-                      style={item.active ? { borderLeftColor: '#02658D' } : undefined}
+                      style={item.active ? { borderLeftColor: '#C8A84E' } : undefined}
                     >
                       <Icon className="w-5 h-5" />
                       <span>{item.label}</span>

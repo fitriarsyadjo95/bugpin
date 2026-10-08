@@ -36,10 +36,10 @@ describe('Login Page', () => {
     expect(screen.getByRole('button', { name: /sign in/i })).toBeInTheDocument();
   });
 
-  it('shows BugPin branding', () => {
+  it('shows Mutiara System branding', () => {
     renderLogin();
 
-    expect(screen.getAllByAltText(/bugpin/i).length).toBeGreaterThan(0);
+    expect(screen.getAllByAltText(/mutiara system/i).length).toBeGreaterThan(0);
   });
 
   it('email field is required', async () => {

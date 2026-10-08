@@ -38,29 +38,29 @@ const DEFAULT_WIDGET_LAUNCHER_BUTTON: GlobalWidgetLauncherButtonSettings = {
   enableHoverScaleEffect: true,
   tooltipEnabled: true,
   tooltipText: null,
-  lightButtonColor: '#02658D',
-  lightTextColor: '#ffffff',
-  lightButtonHoverColor: '#024F6F',
-  lightTextHoverColor: '#ffffff',
-  darkButtonColor: '#02658D',
-  darkTextColor: '#ffffff',
-  darkButtonHoverColor: '#036F9B',
-  darkTextHoverColor: '#ffffff',
+  lightButtonColor: '#C8A84E',
+  lightTextColor: '#0D0D0D',
+  lightButtonHoverColor: '#A88A2E',
+  lightTextHoverColor: '#0D0D0D',
+  darkButtonColor: '#C8A84E',
+  darkTextColor: '#0D0D0D',
+  darkButtonHoverColor: '#E0CC8A',
+  darkTextHoverColor: '#0D0D0D',
 };
 
 const DEFAULT_WIDGET_DIALOG: ThemeColors = {
-  lightButtonColor: '#02658D',
-  lightTextColor: '#ffffff',
-  lightButtonHoverColor: '#024F6F',
-  lightTextHoverColor: '#ffffff',
+  lightButtonColor: '#C8A84E',
+  lightTextColor: '#0D0D0D',
+  lightButtonHoverColor: '#A88A2E',
+  lightTextHoverColor: '#0D0D0D',
   lightBackgroundColor: '#ffffff',
   lightSecondaryColor: '#f5f5f5',
   lightInputColor: '#ffffff',
   lightForegroundColor: '#0a0a0a',
-  darkButtonColor: '#02658D',
-  darkTextColor: '#ffffff',
-  darkButtonHoverColor: '#036F9B',
-  darkTextHoverColor: '#ffffff',
+  darkButtonColor: '#C8A84E',
+  darkTextColor: '#0D0D0D',
+  darkButtonHoverColor: '#E0CC8A',
+  darkTextHoverColor: '#0D0D0D',
   darkBackgroundColor: '#0a0a0a',
   darkSecondaryColor: '#262626',
   darkInputColor: '#1a1a1a',
@@ -84,7 +84,7 @@ const DEFAULT_NOTIFICATIONS: NotificationDefaultSettings = {
 };
 
 const DEFAULT_BRANDING: BrandingSettings = {
-  primaryColor: '#02658D',
+  primaryColor: '#9C7F2B',
   logoLightUrl: null,
   logoDarkUrl: null,
   iconLightUrl: null,
@@ -112,14 +112,14 @@ const DEFAULT_PRIVACY: PrivacySettings = {
 };
 
 const DEFAULT_ADMIN_BUTTON: AdminButtonColors = {
-  lightButtonColor: '#02658D',
-  lightTextColor: '#ffffff',
-  lightButtonHoverColor: '#024F6F',
-  lightTextHoverColor: '#ffffff',
-  darkButtonColor: '#02658D',
-  darkTextColor: '#ffffff',
-  darkButtonHoverColor: '#036F9B',
-  darkTextHoverColor: '#ffffff',
+  lightButtonColor: '#C8A84E',
+  lightTextColor: '#0D0D0D',
+  lightButtonHoverColor: '#A88A2E',
+  lightTextHoverColor: '#0D0D0D',
+  darkButtonColor: '#C8A84E',
+  darkTextColor: '#0D0D0D',
+  darkButtonHoverColor: '#E0CC8A',
+  darkTextHoverColor: '#0D0D0D',
 };
 
 // Key mapping from camelCase to snake_case
@@ -198,7 +198,7 @@ export const settingsRepo = {
 
     return {
       // System settings
-      appName: (settings.appName as string) ?? 'BugPin',
+      appName: (settings.appName as string) ?? 'Mutiara System UAT',
       appUrl: (settings.appUrl as string) ?? '',
       retentionDays: (settings.retentionDays as number) ?? 90,
       rateLimitPerMinute: (settings.rateLimitPerMinute as number) ?? 10,

@@ -57,7 +57,7 @@ describe('ColorPicker', () => {
 
     render(<ColorPicker value="#000000" onChange={onChange} />);
 
-    const input = screen.getByPlaceholderText('#02658D');
+    const input = screen.getByPlaceholderText('#C8A84E');
     fireEvent.change(input, { target: { value: '#12ab34' } });
 
     expect(onChange).toHaveBeenCalledWith('#12ab34');
@@ -68,7 +68,7 @@ describe('ColorPicker', () => {
 
     render(<ColorPicker value="#000000" onChange={onChange} />);
 
-    const input = screen.getByPlaceholderText('#02658D');
+    const input = screen.getByPlaceholderText('#C8A84E');
     fireEvent.change(input, { target: { value: 'not-a-color' } });
 
     expect(onChange).not.toHaveBeenCalled();

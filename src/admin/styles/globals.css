@@ -5,17 +5,17 @@
 
 /* BugPin Primary Color Palette */
 :root {
-  --bugpin-primary-50: #e6f3f9;
-  --bugpin-primary-100: #cbe7f2;
-  --bugpin-primary-200: #9ed1e6;
-  --bugpin-primary-300: #6ab8d8;
-  --bugpin-primary-400: #2e9bc6;
-  --bugpin-primary-500: #0e84b1;
-  --bugpin-primary-600: #036f9b;
-  --bugpin-primary-700: #02658d;
-  --bugpin-primary-800: #024f6f;
-  --bugpin-primary-900: #013a52;
-  --bugpin-primary-950: #012738;
+  --bugpin-primary-50: #fbf8ef;
+  --bugpin-primary-100: #f5edd5;
+  --bugpin-primary-200: #ebdcab;
+  --bugpin-primary-300: #e0cc8a;
+  --bugpin-primary-400: #d4b96a;
+  --bugpin-primary-500: #c8a84e;
+  --bugpin-primary-600: #b3923c;
+  --bugpin-primary-700: #9c7f2b;
+  --bugpin-primary-800: #7c6524;
+  --bugpin-primary-900: #5e4c1d;
+  --bugpin-primary-950: #3a2f12;
 }
 
 /* Light mode (default) - Neutral gray theme */
@@ -97,6 +97,8 @@
 
 /* Map CSS variables to Tailwind theme */
 @theme inline {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-heading: 'Plus Jakarta Sans', 'Inter', ui-sans-serif, system-ui, sans-serif;
   /* BugPin primary color palette */
   --color-bugpin-primary-50: var(--bugpin-primary-50);
   --color-bugpin-primary-100: var(--bugpin-primary-100);
@@ -242,4 +244,9 @@
 }
 .status-unknown {
   @apply text-slate-600 bg-slate-100 dark:text-slate-300 dark:bg-slate-800/50;
+}
+
+/* Mutiara System headings */
+h1, h2, h3, h4, [data-slot='card-title'], [data-slot='dialog-title'] {
+  font-family: var(--font-heading);
 }
